@@ -1,0 +1,117 @@
+/* Reset básico para margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo do subtítulo */
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Estilo do cabeçalho das seções */
+h3 {
+    font-size: 2em;
+    margin: 20px 0 10px;
+}
+
+/* Estilo do botão */
+.button {
+    display: inline-block;
+    background: #fff; /* Fundo branco */
+    color: #4CAF50; /* Texto verde */
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Efeito hover para o botão */
+.button:hover {
+    background: #4CAF50; /* Fundo verde ao passar o mouse */
+    color: white; /* Texto branco ao passar o mouse */
+}
+
+/* Estilo das listas */
+ul {
+    list-style-type: none; /* Remove marcadores das listas */
+    padding: 0;
+}
+
+/* Estilo dos itens da lista */
+li {
+    margin: 10px 0;
+}
+
+/* Estilo das imagens */
+img {
+    max-width: 100%; /* Imagens responsivas */
+    height: auto; /* Mantém a proporção */
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333; /* Cor de fundo escura */
+    color: white; /* Texto branco */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo do link de voltar */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4CAF50; /* Texto verde */
+}
+
+/* Efeito hover para o link de voltar */
+a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .button {
+        padding: 8px 15px;
+    }
+}
